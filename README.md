@@ -43,5 +43,15 @@ cp <old> <new>
 mkdir <name>
 mv <old> <new>
 rm <file>*.*
-
+ls -lR // recursive listing
+> // return new output , replace new 
+>> // append new output
+cat // read file
+cat <filename> | more  // scroll file
+cat <filename> | less
+head <filename>
+tail <filename>
+diff <filename> <filename> -y
+diff <filename> <filename> -u
+history
 ```
